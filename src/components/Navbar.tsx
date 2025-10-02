@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import bitminelogo from "@/assets/bitmine-logo.png";
 
 const menuItems = [
   { label: "Home", href: "#home" },
@@ -41,13 +42,12 @@ export const Navbar = () => {
     >
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-xl font-bold">B</span>
-            </div>
-            <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              BitMine
-            </span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src={bitminelogo} 
+              alt="BitMine Logo" 
+              className="h-16 w-auto object-contain"
+            />
           </div>
 
           <div className="hidden md:flex items-center space-x-1">
@@ -73,7 +73,7 @@ export const Navbar = () => {
             ))}
           </div>
 
-          <Button className="hidden md:block bg-gradient-primary hover:opacity-90 transition-opacity">
+          <Button className="hidden md:block bg-primary text-primary-foreground hover:bg-primary/90 transition-all font-bold border-2 border-primary hover:border-glow">
             Get Started
           </Button>
         </div>

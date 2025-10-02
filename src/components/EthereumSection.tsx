@@ -32,11 +32,11 @@ export const EthereumSection = () => {
         <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Securing the Global
-            <span className="block bg-gradient-accent bg-clip-text text-transparent">
+            <span className="block text-primary text-glow mt-2">
               Ethereum Ecosystem
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground leading-relaxed">
+          <p className="text-xl text-foreground/80 leading-relaxed">
             Our strategic treasury management enhances shareholder value over the long term 
             while also reinforcing the security and resilience of the global Ethereum network.
           </p>
@@ -48,18 +48,18 @@ export const EthereumSection = () => {
             return (
               <div
                 key={feature.title}
-                className="group relative bg-card/50 backdrop-blur-sm rounded-xl p-8 border border-border hover:border-primary/50 transition-all duration-300 hover:transform hover:scale-105 animate-fade-in"
+                className="group relative bg-card backdrop-blur-sm rounded-xl p-8 border border-border hover:border-primary transition-all duration-300 hover:transform hover:scale-105 animate-fade-in hover:border-glow"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 rounded-xl transition-opacity duration-300" />
                 
                 <div className="relative z-10">
-                  <div className="w-14 h-14 bg-gradient-primary rounded-lg flex items-center justify-center mb-6 group-hover:shadow-glow transition-all duration-300">
-                    <Icon className="w-7 h-7" />
+                  <div className="w-14 h-14 border-2 border-primary rounded-lg flex items-center justify-center mb-6 group-hover:border-glow transition-all duration-300 bg-primary/10">
+                    <Icon className="w-7 h-7 text-primary" />
                   </div>
                   
-                  <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <h3 className="text-xl font-bold mb-3 text-foreground">{feature.title}</h3>
+                  <p className="text-foreground/70 leading-relaxed">
                     {feature.description}
                   </p>
                 </div>
