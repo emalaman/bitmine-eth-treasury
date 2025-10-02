@@ -1,6 +1,12 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { EthereumSection } from "@/components/EthereumSection";
+import { AboutSection } from "@/components/AboutSection";
+import { ChairmanSection } from "@/components/ChairmanSection";
+import { MediaSection } from "@/components/MediaSection";
+import { InvestorSection } from "@/components/InvestorSection";
+import { ContactSection } from "@/components/ContactSection";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -8,6 +14,12 @@ const Index = () => {
       <Navbar />
       <Hero />
       <EthereumSection />
+      <AboutSection />
+      <ChairmanSection />
+      <MediaSection />
+      <InvestorSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 };
