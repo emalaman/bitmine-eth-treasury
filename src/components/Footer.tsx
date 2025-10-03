@@ -22,8 +22,8 @@ const footerLinks = {
 const socialLinks = [
   { icon: Twitter, href: "https://x.com/BitMNR", label: "Twitter" },
   { icon: Linkedin, href: "https://www.linkedin.com/company/bitmineimmersiontech/", label: "LinkedIn" },
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Mail, href: "mailto:info@bitmine.com", label: "Email" },
+  { icon: Github, href: "https://github.com/emalaman/bitmine-eth-treasury", label: "GitHub" },
+  { icon: Mail, href: "mailto:emilio.malaman@gmail.com", label: "Email" },
 ];
 
 export const Footer = () => {
