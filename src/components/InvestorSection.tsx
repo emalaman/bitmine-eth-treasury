@@ -5,47 +5,47 @@ const resources = [
     icon: BarChart3,
     title: "Financial Reports",
     description: "Quarterly and annual financial statements",
-    link: "#",
+    link: "https://www.nasdaq.com/market-activity/stocks/bmnr/financials",
   },
   {
     icon: FileText,
     title: "SEC Filings",
     description: "Access all regulatory documents",
-    link: "#",
+    link: "https://www.nasdaq.com/market-activity/stocks/bmnr/sec-filings",
   },
   {
     icon: TrendingUp,
     title: "Stock Information",
     description: "Real-time BMNR stock data and analysis",
-    link: "#",
+    link: "https://finance.yahoo.com/quote/BMNR/",
   },
   {
     icon: Calendar,
     title: "Events Calendar",
     description: "Upcoming earnings calls and presentations",
-    link: "#",
+    link: "https://marketchameleon.com/Overview/BMNR/Earnings/Earnings-Dates/",
   },
 ];
 
 const metrics = [
   {
     label: "ETH Treasury",
-    value: "50,000+",
+    value: "2.66M",
     subtext: "Ethereum holdings",
   },
   {
-    label: "ETH per Share",
-    value: "0.125",
-    subtext: "Growing quarterly",
+    label: "ETH per 1k Share",
+    value: "8.63",
+    subtext: "Calculated based on latest holdings",
   },
   {
     label: "Market Cap",
-    value: "$250M",
+    value: "$10.10B",
     subtext: "USD equivalent",
   },
   {
     label: "YTD Growth",
-    value: "+45%",
+    value: "+629%",
     subtext: "Year to date",
   },
 ];
@@ -70,7 +70,7 @@ export const InvestorSection = () => {
           {metrics.map((metric, index) => (
             <div
               key={metric.label}
-              className="bg-background border border-primary/30 rounded-xl p-6 text-center animate-fade-in border-glow"
+              className="bg-gray-50 dark:bg-background border border-gray-200 dark:border-primary/30 rounded-xl p-6 text-center animate-fade-in border-glow"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <p className="text-4xl md:text-5xl font-bold text-primary mb-2">{metric.value}</p>
@@ -87,7 +87,9 @@ export const InvestorSection = () => {
               <a
                 key={resource.title}
                 href={resource.link}
-                className="bg-card border border-border rounded-xl p-8 hover:border-primary transition-all duration-300 cursor-pointer group animate-fade-in hover:border-glow text-center"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-50 dark:bg-card border border-gray-200 dark:border-border rounded-xl p-8 hover:border-primary transition-all duration-300 cursor-pointer group animate-fade-in hover:border-glow text-center"
                 style={{ animationDelay: `${index * 0.15}s` }}
               >
                 <div className="w-16 h-16 border-2 border-primary rounded-lg flex items-center justify-center mx-auto mb-4 bg-primary/10 group-hover:border-glow transition-all">
@@ -102,22 +104,27 @@ export const InvestorSection = () => {
           })}
         </div>
 
-        <div className="bg-background border border-primary/30 rounded-2xl p-12 text-center border-glow">
+        <div className="bg-gray-50 dark:bg-background border border-gray-200 dark:border-primary/30 rounded-2xl p-12 text-center border-glow">
           <h3 className="text-3xl font-bold mb-6">Next Earnings Call</h3>
           <p className="text-xl text-foreground/80 mb-8">
-            Q1 2025 Financial Results
+            Q3 2025 Financial Results
           </p>
           <div className="space-y-2 mb-8">
             <p className="text-lg">
-              <span className="text-primary font-bold">Date:</span> April 15, 2025
+              <span className="text-primary font-bold">Date:</span> October 29, 2025
             </p>
             <p className="text-lg">
               <span className="text-primary font-bold">Time:</span> 4:00 PM EST
             </p>
           </div>
-          <button className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-bold text-lg hover:opacity-90 transition-all border-2 border-primary hover:border-glow">
+          <a
+            href="https://marketchameleon.com/Overview/BMNR/Earnings/Earnings-Dates/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-bold text-lg hover:opacity-90 transition-all border-2 border-primary hover:border-glow inline-block"
+          >
             Register for Webcast
-          </button>
+          </a>
         </div>
 
         <div className="mt-12 text-center">

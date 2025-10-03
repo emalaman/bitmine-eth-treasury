@@ -1,4 +1,4 @@
-import bitminelogo from "@/assets/bitmine-logo.png";
+import bitminelogo from "@/assets/logobitminenew.png";
 import { Twitter, Linkedin, Github, Mail } from "lucide-react";
 
 const footerLinks = {
@@ -20,8 +20,8 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Twitter, href: "https://x.com/BitMNR", label: "Twitter" },
+  { icon: Linkedin, href: "https://www.linkedin.com/company/bitmineimmersiontech/", label: "LinkedIn" },
   { icon: Github, href: "#", label: "GitHub" },
   { icon: Mail, href: "mailto:info@bitmine.com", label: "Email" },
 ];

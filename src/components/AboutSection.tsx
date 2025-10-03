@@ -31,12 +31,11 @@ export const AboutSection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            About <span className="text-primary text-glow">BitMine</span>
+            <span className="text-primary text-glow">BitMine <p></p>NYSE American: BMNR</span>
           </h2>
           <p className="text-xl text-foreground/80 leading-relaxed mb-8">
-            BitMine (BMNR) represents a new paradigm in digital asset management. We are committed to 
-            building the most robust Ethereum treasury in the world, combining institutional-grade 
-            financial expertise with deep blockchain protocol understanding.
+BitMine is the leading Ethereum Treasury company in the world, implementing an innovative digital asset strategy for institutional investors and public market participants.
+We are committed to ETH as our primary treasury reserve asset, leveraging native protocol-level activities including staking and decentralized finance mechanisms. Our disciplined approach to increasing the ETH held per share creates a self-reinforcing cycle that contributes to Ethereum's economic security while positioning shareholders to benefit from the growing stablecoin market and tokenized asset ecosystem.
           </p>
           <div className="h-1 w-32 bg-primary mx-auto rounded-full border-glow" />
         </div>
@@ -47,7 +46,7 @@ export const AboutSection = () => {
             return (
               <div
                 key={value.title}
-                className="bg-card border border-border rounded-xl p-8 hover:border-primary transition-all duration-300 animate-fade-in hover:border-glow"
+                className="bg-gray-50 dark:bg-card border border-gray-200 dark:border-border rounded-xl p-8 hover:border-primary transition-all duration-300 animate-fade-in hover:border-glow"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex items-start space-x-4">
