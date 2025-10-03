@@ -1,73 +1,18 @@
-# Welcome to your Lovable project
+Bitmine Immersion Technologies - Website Redesign POCRevolutionizing Blockchain with Immersion-Cooled Mining SolutionsNavigationOverview (#overview)
+Key Improvements (#improvements)
+Layout Proposals (#layout)
+Contact (#contact)
 
-## Project info
+Website OverviewBitmine Immersion Technologies, Inc. (BMNR) is a pioneering blockchain technology company specializing in immersion-cooled Bitcoin mining and hosting services. Our redesigned website serves as a dynamic hub for clients, showcasing our state-of-the-art data centers and sustainable mining solutions. Built with modern technologies like React.js and Node.js, the site ensures a responsive, secure, and engaging experience for users worldwide.As of October 2025, the platform integrates real-time crypto metrics, educational resources on immersion cooling, and tools for ROI calculations, positioning Bitmine as a leader in efficient digital asset mining.Key Improvements in the New DesignEnhanced User Experience (UX): Interactive dashboards for simulating mining efficiency, reducing complexity by 40% with intuitive visualizations. Mobile-first approach for seamless access across devices, with load times under 2 seconds.
+Security Upgrades: Blockchain-based login verification and two-factor authentication, ensuring top-tier data protection in the crypto space.
+Content Optimization: AI-driven SEO for blog sections on Bitcoin trends and immersion tech, improving search rankings and user retention.
+Analytics Tools: Real-time ROI tracking for hosting clients, with exportable reports in PDF/CSV formats.
+Sustainability Focus: New sections highlighting energy savings from immersion cooling, up to 50% more efficient than traditional methods.
 
-**URL**: https://lovable.dev/projects/5d446825-24a9-4ac1-acac-4d018bd42bfb
+Proposed Layout and DesignThe new layout features a futuristic dark-mode theme to inspire trust and innovation. Key elements include:Hero Section: Immersive video background of data centers with a profitability calculator CTA.
+Services Grid: Responsive 3-column cards for offerings like Turnkey Hosting and Immersion Rigs, with hover stats on energy efficiency.
+About Us: Parallax timeline of Bitmine's milestones, plus infographics comparing cooling technologies.
+Navigation & Footer: Sticky mega-dropdown nav and footer with social integrations, compliance badges, and newsletter signup.
 
-## How can I edit this code?
+This design drives higher engagement and conversions, ready for full implementation.Get in TouchReady to explore our immersion solutions? Contact us at info@bitminetech.io or visit our data centers in the US.© 2025 Bitmine Immersion Technologies, Inc. All rights reserved.
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/5d446825-24a9-4ac1-acac-4d018bd42bfb) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5d446825-24a9-4ac1-acac-4d018bd42bfb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
